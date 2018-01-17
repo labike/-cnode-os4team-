@@ -1,4 +1,4 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://labike:2012.1.2.02@ds159707.mlab.com:59707/labike');
+mongoose.connect('mongodb://127.0.0.1:27017/node_club');
 
 exports.mongoose = mongoose;
